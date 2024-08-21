@@ -18,11 +18,12 @@ Long description of module's purpose
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','sale_management','purchase'],
+    'depends': ['base','sale_management','purchase','stock'],
 
     # always loaded
     'data': [
         'security/security.xml',
+        'data/company_user_create_mail_template.xml',
         'views/company.xml',
         'views/product.xml',
     ],

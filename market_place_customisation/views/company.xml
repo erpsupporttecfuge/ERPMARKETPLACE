@@ -15,6 +15,9 @@
             <xpath expr="//field[@name='email']" position="attributes">
                 <attribute name="required">true</attribute>
             </xpath>
+            <xpath expr="//field[@name='email']" position="after">
+                <field name="password"/>
+            </xpath>
         </field>
     </record>
 
